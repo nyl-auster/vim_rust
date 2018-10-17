@@ -4,12 +4,8 @@ Vim configuration for Rust
 
 # INSTALL
 
+This repository must be the content of your `.vim` directory. Then open vim and install the plugins with :
+
 ```sh
-cd ~
-git clone git@github.com:nyl-auster/vim_rust.git
-ln -s vim_rust/.vimrc .vimrc
-ln -s vim_rust .vim
-# now open vim and run :
 :PlugInstall
-# ... to install Plugins
 ```
